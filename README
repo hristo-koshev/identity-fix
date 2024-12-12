@@ -1,0 +1,5 @@
+Our goal is to create a single Authentication Endpoint for all connected applications:
+
+1. We have 3 applications, which serve different busness functionality, but they require a single pool of users accounts to be used in all applications.
+2. Each application currently issue it's own JWT (JSON Web Tokens) on each users login and authenticate them with user information from it's Database users information.
+3. In order this information to be synchronize we currently runing 3 chron scripts to seed all new data from each Database to 
